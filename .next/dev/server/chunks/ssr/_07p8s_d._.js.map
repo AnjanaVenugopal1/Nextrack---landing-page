@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/anjan/OneDrive/Desktop/nextrack-landing/app/layout.js"],"sourcesContent":["import \"./globals.css\";\n\nexport const metadata = {\n  title: \"Nextrack - The Ultimate Task Management App\",\n  description: \"Nextrack helps you organize your tasks, boost productivity, and stay on top of your game with an intuitive and beautiful interface.\",\n};\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":["metadata","title","description","RootLayout","children","lang"],"mappings":";;;;;;;;;AAEO,MAAMA,WAAW;IACtBC,OAAO;IACPC,aAAa;AACf;AAEe,SAASC,WAAW,EAAEC,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAKC,MAAK;kBACT,cAAA,8OAAC;sBACED;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/anjan/OneDrive/Desktop/nextrack-landing/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}

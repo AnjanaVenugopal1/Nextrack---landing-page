@@ -1,0 +1,18 @@
+{
+  "node": {
+    "401dd462c03a84e86cec91f1f3c42dc5bdf05ce46d": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/sendEmail.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendEmail",
+          "filename": "app/actions/sendEmail.js"
+        }
+      },
+      "filename": "app/actions/sendEmail.js",
+      "exportedName": "sendEmail"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "E4t/KHalLuVri2d5b7Ur5xmEDy3bT8SVdY5APii916I="
+}

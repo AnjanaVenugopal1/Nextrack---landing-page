@@ -20,7 +20,7 @@ const slides = [
     label: "Role Management",
     title: "Define Roles & Permissions",
     description:
-      "Create custom roles with specific permissions and assign them across your team. Access is always intentional — never accidental.",
+      "Set up specific roles for your organization. Everyone gets exactly the access they need to do their jobs without seeing sensitive admin areas.",
     accent: "#ebd076",
   },
   {
@@ -29,7 +29,7 @@ const slides = [
     label: "Task Approvals",
     title: "Approve & Control Tasks",
     description:
-      "Admins review and approve tasks before they go live. Nothing moves forward without the right sign-off — full control at every step.",
+      "Managers can review and sign off on tasks before they are finalized, ensuring quality control across the board.",
     accent: "#fadb5f",
   },
   {
@@ -38,34 +38,34 @@ const slides = [
     label: "User Management",
     title: "Manage Your Entire Team",
     description:
-      "Add users, assign roles, verify accounts, and control who has access — all from one clean admin screen.",
+      "Add new team members, verify accounts, and update permissions from a single, easy-to-use directory.",
     accent: "#d4af37",
   },
   {
     id: 5,
     image: "/images/slide5.png",
-    label: "Analytics — Overview",
+    label: "Analytics Overview",
     title: "The Big Picture, Instantly",
     description:
-      "A high-level summary of all tasks across the workspace. Completed, in-progress, and pending — broken down at a glance.",
+      "See a top-level breakdown of what is done, what is in progress, and what needs immediate attention.",
     accent: "#ebd076",
   },
   {
     id: 6,
     image: "/images/slide6.png",
-    label: "Analytics — By User",
-    title: "See Who's Doing What",
+    label: "Analytics By User",
+    title: "See Who is Doing What",
     description:
-      "Drill into per-user task data to understand individual workloads and completion rates. Spot bottlenecks before they become problems.",
+      "Look into individual performance metrics to balance workloads and help team members who might be stuck.",
     accent: "#fadb5f",
   },
   {
     id: 7,
     image: "/images/slide7.png",
-    label: "Analytics — Trends",
+    label: "Analytics Trends",
     title: "Track Progress Over Time",
     description:
-      "Visualise task trends across your team over days and weeks. Keep momentum high and deadlines firmly on track.",
+      "Watch how your team's output trends over weeks or months to keep everyone on schedule.",
     accent: "#ffffff",
   },
 ];
@@ -370,7 +370,7 @@ export default function Carousel() {
                 ))}
               </div>
               <span style={{ fontSize: "0.7rem", color: "#3f3f46", marginTop: "10px", display: "block" }}>
-                0{current + 1} / 0{slides.length} — {slide.label}
+                0{current + 1} / 0{slides.length} - {slide.label}
               </span>
             </div>
           </div>

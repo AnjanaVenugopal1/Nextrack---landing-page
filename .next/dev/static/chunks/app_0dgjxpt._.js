@@ -57,7 +57,7 @@ function Navbar() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
                         width: "100%",
-                        maxWidth: "1280px",
+                        maxWidth: "100%",
                         margin: "0 auto",
                         padding: "0 var(--section-px)",
                         display: "flex",
@@ -67,7 +67,7 @@ function Navbar() {
                     className: "jsx-59c8ee69d6116ebe",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/",
+                            href: "#home",
                             style: {
                                 display: "flex",
                                 alignItems: "center",
@@ -384,7 +384,7 @@ function Hero() {
                     [
                         "/images/img1.png",
                         "/images/img2.png",
-                        "/images/img3.png"
+                        "/images/img4.png"
                     ].map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             src: src,
                             alt: "",
@@ -683,7 +683,7 @@ const pillars = [
         accent: "#d4af37",
         accentDim: "rgba(212,175,55,0.1)",
         title: "Total Security",
-        body: "Every employee is verified by an admin before accessing the workspace. No exceptions — complete data integrity from day one.",
+        body: "Every employee must be verified by an admin before accessing the workspace, ensuring complete data integrity from day one.",
         bgImage: "/images/img9.jpg"
     },
     {
@@ -691,7 +691,7 @@ const pillars = [
         accent: "#ebd076",
         accentDim: "rgba(235,208,118,0.1)",
         title: "Seamless Teamwork",
-        body: "Assign tasks to individuals or entire roles and collaborate instantly with built-in live chat — all in one place.",
+        body: "Assign tasks to individuals or entire roles and collaborate instantly using the built-in live chat within a unified interface.",
         bgImage: "/images/img10.jpg"
     },
     {
@@ -734,7 +734,7 @@ function About() {
         }
     }["About.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        id: "about-detail",
+        id: "about",
         ref: sectionRef,
         style: {
             padding: "120px 0 100px",
@@ -822,7 +822,7 @@ function About() {
                                     fontWeight: 300
                                 },
                                 className: "jsx-15fc8416fec78f18",
-                                children: "Nextrack consolidates role-based access, priority task boards, and real-time communication into a single, secure platform — built for teams that can't afford to lose track of anything."
+                                children: "Nextrack brings role-based access, priority task boards, and real-time communication into a single secure platform designed for teams that need to stay highly organized."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/About.js",
                                 lineNumber: 103,
@@ -1038,7 +1038,7 @@ const slides = [
         image: "/images/slide2.png",
         label: "Role Management",
         title: "Define Roles & Permissions",
-        description: "Create custom roles with specific permissions and assign them across your team. Access is always intentional — never accidental.",
+        description: "Set up specific roles for your organization. Everyone gets exactly the access they need to do their jobs without seeing sensitive admin areas.",
         accent: "#ebd076"
     },
     {
@@ -1046,7 +1046,7 @@ const slides = [
         image: "/images/slide3.png",
         label: "Task Approvals",
         title: "Approve & Control Tasks",
-        description: "Admins review and approve tasks before they go live. Nothing moves forward without the right sign-off — full control at every step.",
+        description: "Managers can review and sign off on tasks before they are finalized, ensuring quality control across the board.",
         accent: "#fadb5f"
     },
     {
@@ -1054,31 +1054,31 @@ const slides = [
         image: "/images/slide4.png",
         label: "User Management",
         title: "Manage Your Entire Team",
-        description: "Add users, assign roles, verify accounts, and control who has access — all from one clean admin screen.",
+        description: "Add new team members, verify accounts, and update permissions from a single, easy-to-use directory.",
         accent: "#d4af37"
     },
     {
         id: 5,
         image: "/images/slide5.png",
-        label: "Analytics — Overview",
+        label: "Analytics Overview",
         title: "The Big Picture, Instantly",
-        description: "A high-level summary of all tasks across the workspace. Completed, in-progress, and pending — broken down at a glance.",
+        description: "See a top-level breakdown of what is done, what is in progress, and what needs immediate attention.",
         accent: "#ebd076"
     },
     {
         id: 6,
         image: "/images/slide6.png",
-        label: "Analytics — By User",
-        title: "See Who's Doing What",
-        description: "Drill into per-user task data to understand individual workloads and completion rates. Spot bottlenecks before they become problems.",
+        label: "Analytics By User",
+        title: "See Who is Doing What",
+        description: "Look into individual performance metrics to balance workloads and help team members who might be stuck.",
         accent: "#fadb5f"
     },
     {
         id: 7,
         image: "/images/slide7.png",
-        label: "Analytics — Trends",
+        label: "Analytics Trends",
         title: "Track Progress Over Time",
-        description: "Visualise task trends across your team over days and weeks. Keep momentum high and deadlines firmly on track.",
+        description: "Watch how your team's output trends over weeks or months to keep everyone on schedule.",
         accent: "#ffffff"
     }
 ];
@@ -1500,7 +1500,7 @@ function Carousel() {
                                                     current + 1,
                                                     " / 0",
                                                     slides.length,
-                                                    " — ",
+                                                    " - ",
                                                     slide.label
                                                 ]
                                             }, void 0, true, {
@@ -1577,7 +1577,7 @@ const features = [
         accentDim: "rgba(212,175,55,0.15)",
         title: "Admin Approvals",
         front: "Only verified employees get in.",
-        back: "A secure verification flow ensures only approved employees access your workspace. Reject or approve incoming registrations with a single action — and keep a full audit trail."
+        back: "A secure verification flow ensures only approved employees access your workspace. Reject or approve incoming registrations with a single click while maintaining a complete audit trail."
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layout$2d$dashboard$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LayoutDashboard$3e$__["LayoutDashboard"],
@@ -1585,14 +1585,14 @@ const features = [
         accentDim: "rgba(235,208,118,0.15)",
         title: "Dynamic Roles",
         front: "Permissions that match your org.",
-        back: "Create custom roles like Manager or Editor and assign specific permissions across your entire organization. Changes propagate instantly — no re-login required."
+        back: "Create custom roles like Manager or Editor and assign specific permissions across your entire organization. Changes take effect immediately without requiring users to log in again."
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
         accent: "#fadb5f",
         accentDim: "rgba(250,219,95,0.15)",
         title: "Priority Tasking",
-        front: "High, Medium, Low — crystal clear.",
+        front: "High, Medium, and Low priorities made clear.",
         back: "Filter and manage tasks by priority tier to keep your team focused on what moves the needle. Smart ordering surfaces the most critical work at the top."
     }
 ];
@@ -2029,16 +2029,17 @@ function Contact() {
     }
     const inputStyle = (name)=>({
             width: "100%",
-            padding: "13px 16px",
-            borderRadius: "10px",
-            background: "rgba(255,255,255,0.04)",
-            border: `1px solid ${focused === name ? "rgba(212,175,55,0.5)" : "rgba(255,255,255,0.08)"}`,
+            padding: "16px 20px",
+            borderRadius: "14px",
+            background: "rgba(255,255,255,0.02)",
+            backdropFilter: "blur(10px)",
+            border: `1px solid ${focused === name ? "rgba(212,175,55,0.6)" : "rgba(255,255,255,0.06)"}`,
             color: "#f4f4f5",
             fontSize: "0.95rem",
             outline: "none",
-            transition: "border-color 0.2s",
+            transition: "all 0.3s ease",
             boxSizing: "border-box",
-            boxShadow: focused === name ? "0 0 0 3px rgba(212,175,55,0.08)" : "none",
+            boxShadow: focused === name ? "0 0 0 4px rgba(212,175,55,0.15)" : "inset 0 2px 4px rgba(0,0,0,0.2)",
             fontFamily: "inherit"
         });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2055,21 +2056,39 @@ function Contact() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     position: "absolute",
-                    top: "30%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                    width: "50vw",
-                    height: "50vw",
+                    top: "10%",
+                    left: "10%",
+                    width: "40vw",
+                    height: "40vw",
                     borderRadius: "50%",
                     background: "#d4af37",
-                    opacity: 0.04,
+                    opacity: 0.06,
                     filter: "blur(120px)",
                     pointerEvents: "none"
                 },
                 className: "jsx-3b7b141a83244fab"
             }, void 0, false, {
                 fileName: "[project]/app/components/Contact.js",
-                lineNumber: 76,
+                lineNumber: 77,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    position: "absolute",
+                    bottom: "10%",
+                    right: "10%",
+                    width: "40vw",
+                    height: "40vw",
+                    borderRadius: "50%",
+                    background: "#ebd076",
+                    opacity: 0.05,
+                    filter: "blur(140px)",
+                    pointerEvents: "none"
+                },
+                className: "jsx-3b7b141a83244fab"
+            }, void 0, false, {
+                fileName: "[project]/app/components/Contact.js",
+                lineNumber: 92,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2104,7 +2123,7 @@ function Contact() {
                                         className: "jsx-3b7b141a83244fab"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Contact.js",
-                                        lineNumber: 108,
+                                        lineNumber: 123,
                                         columnNumber: 30
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2115,13 +2134,13 @@ function Contact() {
                                         children: "We'd love to hear from you."
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Contact.js",
-                                        lineNumber: 109,
+                                        lineNumber: 124,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Contact.js",
-                                lineNumber: 97,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2134,23 +2153,26 @@ function Contact() {
                                 children: "Request a feature, ask about access, or just say hello."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Contact.js",
-                                lineNumber: 111,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Contact.js",
-                        lineNumber: 95,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             padding: "48px 44px",
                             borderRadius: "24px",
-                            background: "rgba(15,15,30,0.7)",
-                            border: "1px solid rgba(255,255,255,0.07)",
-                            backdropFilter: "blur(24px)",
-                            boxShadow: "0 32px 64px rgba(0,0,0,0.5)"
+                            background: "linear-gradient(145deg, rgba(30, 10, 20, 0.4) 0%, rgba(15, 5, 10, 0.2) 100%)",
+                            border: "1px solid rgba(255,255,255,0.04)",
+                            borderTop: "1px solid rgba(255,255,255,0.12)",
+                            borderLeft: "1px solid rgba(255,255,255,0.08)",
+                            backdropFilter: "blur(40px)",
+                            WebkitBackdropFilter: "blur(40px)",
+                            boxShadow: "0 32px 64px rgba(0,0,0,0.6)"
                         },
                         className: "jsx-3b7b141a83244fab" + " " + "reveal delay-1",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2187,7 +2209,7 @@ function Contact() {
                                                     children: "Name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Contact.js",
-                                                    lineNumber: 135,
+                                                    lineNumber: 153,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2201,13 +2223,13 @@ function Contact() {
                                                     className: "jsx-3b7b141a83244fab"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Contact.js",
-                                                    lineNumber: 138,
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 134,
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2227,7 +2249,7 @@ function Contact() {
                                                     children: "Email"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Contact.js",
-                                                    lineNumber: 149,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2241,19 +2263,19 @@ function Contact() {
                                                     className: "jsx-3b7b141a83244fab"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Contact.js",
-                                                    lineNumber: 152,
+                                                    lineNumber: 170,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 148,
+                                            lineNumber: 166,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 130,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2273,7 +2295,7 @@ function Contact() {
                                             children: "Message"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 165,
+                                            lineNumber: 183,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2296,13 +2318,13 @@ function Contact() {
                                             className: "jsx-3b7b141a83244fab"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 168,
+                                            lineNumber: 186,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 164,
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2314,7 +2336,7 @@ function Contact() {
                                     className: "jsx-3b7b141a83244fab"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 188,
+                                    lineNumber: 206,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2350,7 +2372,7 @@ function Contact() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Contact.js",
-                                                lineNumber: 216,
+                                                lineNumber: 234,
                                                 columnNumber: 19
                                             }, this),
                                             "Sending…"
@@ -2367,12 +2389,12 @@ function Contact() {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Contact.js",
-                                                    lineNumber: 227,
+                                                    lineNumber: 245,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Contact.js",
-                                                lineNumber: 221,
+                                                lineNumber: 239,
                                                 columnNumber: 19
                                             }, this),
                                             "Send Message"
@@ -2380,7 +2402,7 @@ function Contact() {
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 190,
+                                    lineNumber: 208,
                                     columnNumber: 13
                                 }, this),
                                 status === "success" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2394,10 +2416,10 @@ function Contact() {
                                         textAlign: "center"
                                     },
                                     className: "jsx-3b7b141a83244fab",
-                                    children: "✓ Message sent — we'll get back to you shortly."
+                                    children: "✓ Message sent. We will get back to you shortly."
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 235,
+                                    lineNumber: 253,
                                     columnNumber: 15
                                 }, this),
                                 status === "error" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2414,24 +2436,24 @@ function Contact() {
                                     children: "Something went wrong. Please try again."
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 251,
+                                    lineNumber: 269,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/Contact.js",
-                            lineNumber: 128,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/Contact.js",
-                        lineNumber: 117,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Contact.js",
-                lineNumber: 92,
+                lineNumber: 107,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2441,7 +2463,7 @@ function Contact() {
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Contact.js",
-        lineNumber: 65,
+        lineNumber: 66,
         columnNumber: 5
     }, this);
 }

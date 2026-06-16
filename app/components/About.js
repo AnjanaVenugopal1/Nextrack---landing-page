@@ -9,7 +9,7 @@ const pillars = [
     accent: "#d4af37",
     accentDim: "rgba(212,175,55,0.1)",
     title: "Total Security",
-    body: "Every employee is verified by an admin before accessing the workspace. No exceptions — complete data integrity from day one.",
+    body: "Every employee must be verified by an admin before accessing the workspace, ensuring complete data integrity from day one.",
     bgImage: "/images/img9.jpg",
   },
   {
@@ -17,7 +17,7 @@ const pillars = [
     accent: "#ebd076",
     accentDim: "rgba(235,208,118,0.1)",
     title: "Seamless Teamwork",
-    body: "Assign tasks to individuals or entire roles and collaborate instantly with built-in live chat — all in one place.",
+    body: "Assign tasks to individuals or entire roles and collaborate instantly using the built-in live chat within a unified interface.",
     bgImage: "/images/img10.jpg",
   },
   {
@@ -55,7 +55,7 @@ export default function About() {
 
   return (
     <section
-      id="about-detail"
+      id="about"
       ref={sectionRef}
       style={{
         padding: "120px 0 100px",
@@ -108,9 +108,9 @@ export default function About() {
               fontWeight: 300,
             }}
           >
-            Nextrack consolidates role-based access, priority task boards, and
-            real-time communication into a single, secure platform — built for
-            teams that can't afford to lose track of anything.
+            Nextrack brings role-based access, priority task boards, and
+            real-time communication into a single secure platform designed for
+            teams that need to stay highly organized.
           </p>
         </div>
 

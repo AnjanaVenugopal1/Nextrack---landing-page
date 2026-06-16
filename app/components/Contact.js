@@ -48,16 +48,17 @@ export default function Contact() {
 
   const inputStyle = (name) => ({
     width: "100%",
-    padding: "13px 16px",
-    borderRadius: "10px",
-    background: "rgba(255,255,255,0.04)",
-    border: `1px solid ${focused === name ? "rgba(212,175,55,0.5)" : "rgba(255,255,255,0.08)"}`,
+    padding: "16px 20px",
+    borderRadius: "14px",
+    background: "rgba(255,255,255,0.02)",
+    backdropFilter: "blur(10px)",
+    border: `1px solid ${focused === name ? "rgba(212,175,55,0.6)" : "rgba(255,255,255,0.06)"}`,
     color: "#f4f4f5",
     fontSize: "0.95rem",
     outline: "none",
-    transition: "border-color 0.2s",
+    transition: "all 0.3s ease",
     boxSizing: "border-box",
-    boxShadow: focused === name ? "0 0 0 3px rgba(212,175,55,0.08)" : "none",
+    boxShadow: focused === name ? "0 0 0 4px rgba(212,175,55,0.15)" : "inset 0 2px 4px rgba(0,0,0,0.2)",
     fontFamily: "inherit",
   });
 
@@ -72,19 +73,33 @@ export default function Contact() {
         overflow: "hidden",
       }}
     >
-      {/* Centre glow */}
+      {/* Left glow */}
       <div
         style={{
           position: "absolute",
-          top: "30%",
-          left: "50%",
-          transform: "translateX(-50%)",
-          width: "50vw",
-          height: "50vw",
+          top: "10%",
+          left: "10%",
+          width: "40vw",
+          height: "40vw",
           borderRadius: "50%",
           background: "#d4af37",
-          opacity: 0.04,
+          opacity: 0.06,
           filter: "blur(120px)",
+          pointerEvents: "none",
+        }}
+      />
+      {/* Right glow */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "10%",
+          right: "10%",
+          width: "40vw",
+          height: "40vw",
+          borderRadius: "50%",
+          background: "#ebd076",
+          opacity: 0.05,
+          filter: "blur(140px)",
           pointerEvents: "none",
         }}
       />
@@ -119,10 +134,13 @@ export default function Contact() {
           style={{
             padding: "48px 44px",
             borderRadius: "24px",
-            background: "rgba(15,15,30,0.7)",
-            border: "1px solid rgba(255,255,255,0.07)",
-            backdropFilter: "blur(24px)",
-            boxShadow: "0 32px 64px rgba(0,0,0,0.5)",
+            background: "linear-gradient(145deg, rgba(30, 10, 20, 0.4) 0%, rgba(15, 5, 10, 0.2) 100%)",
+            border: "1px solid rgba(255,255,255,0.04)",
+            borderTop: "1px solid rgba(255,255,255,0.12)",
+            borderLeft: "1px solid rgba(255,255,255,0.08)",
+            backdropFilter: "blur(40px)",
+            WebkitBackdropFilter: "blur(40px)",
+            boxShadow: "0 32px 64px rgba(0,0,0,0.6)",
           }}
         >
           <form action={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
@@ -243,7 +261,7 @@ export default function Contact() {
                   textAlign: "center",
                 }}
               >
-                ✓ Message sent — we'll get back to you shortly.
+                ✓ Message sent. We will get back to you shortly.
               </div>
             )}
 

@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4034b2b7c9ef8355ed49389630d059e38911a415fc": {
+      "workers": {
+        "app/page": {
+          "moduleId": 42972,
+          "async": false,
+          "exportedName": "sendEmail",
+          "filename": "app/actions/sendEmail.js"
+        }
+      },
+      "exportedName": "sendEmail",
+      "filename": "app/actions/sendEmail.js"
+    }
+  },
+  "edge": {}
+}

@@ -10,7 +10,7 @@ const features = [
     accentDim: "rgba(212,175,55,0.15)",
     title: "Admin Approvals",
     front: "Only verified employees get in.",
-    back: "A secure verification flow ensures only approved employees access your workspace. Reject or approve incoming registrations with a single action — and keep a full audit trail.",
+    back: "A secure verification flow ensures only approved employees access your workspace. Reject or approve incoming registrations with a single click while maintaining a complete audit trail.",
   },
   {
     icon: LayoutDashboard,
@@ -18,14 +18,14 @@ const features = [
     accentDim: "rgba(235,208,118,0.15)",
     title: "Dynamic Roles",
     front: "Permissions that match your org.",
-    back: "Create custom roles like Manager or Editor and assign specific permissions across your entire organization. Changes propagate instantly — no re-login required.",
+    back: "Create custom roles like Manager or Editor and assign specific permissions across your entire organization. Changes take effect immediately without requiring users to log in again.",
   },
   {
     icon: Zap,
     accent: "#fadb5f",
     accentDim: "rgba(250,219,95,0.15)",
     title: "Priority Tasking",
-    front: "High, Medium, Low — crystal clear.",
+    front: "High, Medium, and Low priorities made clear.",
     back: "Filter and manage tasks by priority tier to keep your team focused on what moves the needle. Smart ordering surfaces the most critical work at the top.",
   },
 ];

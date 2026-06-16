@@ -108,7 +108,7 @@ export default function Hero() {
     >
       {/* Background images */}
       <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
-        {["/images/img1.png", "/images/img2.png", "/images/img3.png"].map((src, i) => (
+        {["/images/img1.png", "/images/img2.png", "/images/img4.png"].map((src, i) => (
           <Image
             key={src}
             src={src}

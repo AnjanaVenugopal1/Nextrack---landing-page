@@ -41,7 +41,7 @@ export default function Navbar() {
         <div
           style={{
             width: "100%",
-            maxWidth: "1280px",
+            maxWidth: "100%",
             margin: "0 auto",
             padding: "0 var(--section-px)",
             display: "flex",
@@ -51,7 +51,7 @@ export default function Navbar() {
         >
           {/* Logo */}
           <Link
-            href="/"
+            href="#home"
             style={{
               display: "flex",
               alignItems: "center",

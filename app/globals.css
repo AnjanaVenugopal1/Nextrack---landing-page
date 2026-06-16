@@ -216,6 +216,16 @@ input:focus, textarea:focus {
   box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
 }
 
+/* Fix browser autofill changing inputs to white */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: var(--foreground) !important;
+  caret-color: var(--foreground);
+}
+
 /* General Section Spacing */
 .section {
   padding: 120px 0;
